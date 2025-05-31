@@ -46,3 +46,22 @@
     --h4: bold 16px/120% var(--font-family);
 
 }
+
+body{
+    overflow: hidden;
+
+    font: var(--text);
+    color: var(--text-secundary);
+}
+
+h1{
+    color: var(--text-primary);
+}
+
+h2{
+    color: var(--text-primary);
+}
+
+/* img{
+    width: 100%;
+} */
