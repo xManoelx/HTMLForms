@@ -136,27 +136,32 @@
                     </fieldset>
 
                     <fieldset class="enroll-options">
-                        <legend for="enroll-options">Opções de matrícula</legend>
-                        <div>
+                        <legend>Opções de matrícula</legend>
+                        
+                        <div class="input-wrapper">
                             <label>Selecione o turno de estudo</label>
                             
                             <div class="radio-wrapper">
                                 <div class="radio-inner">
                                     <div class="radio-image">
-                                        <input type="type" name="stuffy-shift" id="moring"> <!-- value="moring" -->
-                                        <img src="assests/Ilustration_Icons/sun-cloud-02.png" alt="Icone de sol com nuvem">
-                                        <label for="moring">Manhã</label>
+                                        <input type="radio" name="study-shift" value="moring" id="moring"> <!-- value="moring" -->
                                     </div>
-                                
+                                        <img src="assests/Ilustration_Icons/sun-cloud-02.png" alt="Icone de sol com nuvem">
+                                        <label for="moring">Manhã</label>            
+                                </div>
+
+                                <div class="radio-inner">    
                                     <div class="radio-image">
-                                        <input type="type" name="stuffy-shift" id="evening"> <!-- value="evening" -->
+                                        <input type="radio" name="study-shift" value="evening" id="evening"> <!-- value="evening" -->
+                                    </div>    
                                         <img src="assests/Ilustration_Icons/sun-02.png" alt="Icone de sol">
                                         <label for="evening">Tarde</label>
-                                    </div>                                    
-                                </div>
+                                </div>                                        
                             </div>
+                        
                         </div>
                     </fieldset>
+                
                 </form>
             </div>
         </main>
